@@ -1,0 +1,38 @@
+body {
+	background-color: #487;
+	font-size: 20px;
+}
+body div, body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#form{
+	width: 350px;
+	color: #fff;
+}
+span{
+	display: block;
+}
+li{
+padding: 5px 10px;
+  list-style-type: none;
+  display: flex;
+background-color: #FFFACD;
+color: #00008B;
+}
+  
+.employeeList {
+  width: 400px;
+}
+ul{
+	padding: 10px;
+	margin: 0;
+}
+.number, .salary {
+	background-color: #FFFACD;
+	 width: 300px;
+	 color: #00008B;
+	 padding: 5px 0;
+	 margin-bottom: 5px;
+}

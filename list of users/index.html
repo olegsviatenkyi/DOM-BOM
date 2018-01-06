@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM and BOM 7</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+	<div id="form">
+		<input id="firstName" type="text" name="first_name" value = "first name">
+		<input id="lastName" type="text" name="last_name" value = "last name">
+		<input id="salary" type="number" name="salary" value = "1000">
+		<input id="position" type="text" name="position" value = "position">
+		<div>Limit number of employees:</div>
+		<input id="limit" type="number" name="limit" value = "10">
+		<div>Limit of avg. salary:</div>
+		<input id="limitAvgSalary" type="number" name="limitAvgSalary" value = "2000">
+	</div>
+	<div class="list">
+		<ul class="employeeList"></ul>
+		<div class="number"></div>
+		<div class="salary"></div>
+	</div>
+ <button class="addEmployee" onclick="addEmployee();">Add New emplyee</button>
+</body>
+</html>
