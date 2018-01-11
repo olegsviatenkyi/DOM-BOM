@@ -1,0 +1,23 @@
+.lang {
+  display: none;
+}
+
+body[data-current-language="ua"] .lang.lang-ua {
+  display: initial;
+}
+body[data-current-language="ru"] .lang.lang-ru {
+  display: initial;
+}
+body[data-current-language="eng"] .lang.lang-eng {
+  display: initial;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 20px;
+	background-color: #FFF8DC;
+}
+body>div, button{
+	margin-top: 10px;
+}
