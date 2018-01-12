@@ -1,0 +1,42 @@
+body{
+	height: 1000px;
+	background: #AFEEEE;
+}
+h1 {
+  margin: 0;
+	position: fixed;
+}
+
+.content1, .content2{
+  background: blue;
+  height: 150px;
+  position: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  width: 100%;
+  z-index: 1;
+  left: 0px;
+  /*position: */
+}
+.content1{
+	top: 0;
+}
+.content2{
+	bottom: 0;
+}
+
+#parallax {
+	z-index: 0;
+	position: relative;
+  width: 100%;
+  background: url(http://www.verticalworld.net/school/programs/uploads/pics/program_108_1.jpg);
+  height: 716px;
+  background-position: center;
+	background-repeat: no-repeat;
+	top: 142px;
+}
+img{
+	width: 150px;
+	position: fixed;
+}
