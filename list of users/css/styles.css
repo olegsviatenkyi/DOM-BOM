@@ -2,12 +2,12 @@ body {
 	background-color: #487;
 	font-size: 20px;
 }
-body div, body{
+body div, body, form{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-#form{
+form{
 	width: 350px;
 	color: #fff;
 }
