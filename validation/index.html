@@ -6,64 +6,6 @@
 </head>
 <body>
 
-	<script type="text/javascript">
-		var date = new Date();
-		var year = date.getFullYear();
-   			var month = date.getMonth() + 1;
-   			var day = date.getDate();
-   			if (month < 10) month = '0' + month;
-   				if (day < 10) day = '0' + day;
-   			
-   			var result = (day + '/' + month + '/' + year);
-			
-		var form = document.createElement("form");
-		form.name = "login";
-		form.action = "google.com"; 
-		var input1 = document.createElement("input");
-		input1.type = "text";
-		input1.name = "age";
-		input1.value = "age";
-		
-		var input2 = document.createElement("input");
-		input2.type = "text";
-		input2.name = "username";
-		input2.value = "username";
-		var input3 = document.createElement("input");
-		input3.type = "text";
-		input3.name = "date";
-		input3.value = "current date";
-		var input4 = document.createElement("input");
-		input4.type = "submit";
-		input4.value = "Validate Me";
-		
-		input4.addEventListener('click', function(event){
-			if (!input1.value.match(/^\d/) || input1.value.match(/[a-zA-Z]/) || input1.value < 0 || !input2.value.match(/^user\_+.+/)){
-				event.preventDefault();
-				alert('Incorrect! Try again')
-				return false;
-			}
-			if (input3.value !== result){
-				event.preventDefault();
-				alert('Your data is invalid (format dd/mm/yyyy)')
-				return false;
-			}
-		
-			else {alert('success');
-			return true;}
-
-		}, false);
-		form.appendChild(input1);
-		form.appendChild(input2);
-		form.appendChild(input3);
-		form.appendChild(input4);
-		
-		document.body.insertBefore(form, document.body.firstChild);
-		
-   			
-   			
-   		
-   			
-   			
-	</script>
+	<script type="text/javascript" src="Js.js"></script>
 </body>
 </html>

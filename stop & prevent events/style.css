@@ -1,14 +1,14 @@
 #box1,#box4 {
-  background: red;
-  width: 200px; height: 200px;
+	background: red;
+	width: 200px; height: 200px;
 }
 
 #box2,#box5 {
-  background: green;
-  width: 150px; height: 150px;
+	background: green;
+	width: 150px; height: 150px;
 }
 
 #box3,#box6 {
-  background: blue;
-  width: 100px; height: 100px;
+	background: blue;
+	width: 100px; height: 100px;
 }

@@ -1,15 +1,15 @@
 .lang {
-  display: none;
+	display: none;
 }
 
 body[data-current-language="ua"] .lang.lang-ua {
-  display: initial;
+	display: initial;
 }
 body[data-current-language="ru"] .lang.lang-ru {
-  display: initial;
+	display: initial;
 }
 body[data-current-language="eng"] .lang.lang-eng {
-  display: initial;
+	display: initial;
 }
 body {
 	display: flex;
